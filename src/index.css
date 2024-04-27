@@ -1,0 +1,14 @@
+/* CSS Reset to remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  
+}
+
+html, body {
+  width: 100%; /* Ensure the body takes full width */
+  height: 100%; /* Ensure the body takes full height */
+ 
+}
+

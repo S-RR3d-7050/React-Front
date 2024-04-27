@@ -1,0 +1,198 @@
+.text33{
+    font-weight: 800;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 42.19px;
+}
+.text332{
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 42.19px;
+}
+.input33{
+    width: 1300px;
+    height: 43px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 2.5px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.input333{
+    width: 1300px;
+    height: 43px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 2.5px;
+    border: none;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.input332{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 2.5px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.litcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container33{
+   margin-left: 40px;
+   margin-top: 50px;
+}
+.image33{
+    position: relative;
+    top:10px;
+    left:5px;
+}
+.button33{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 132px;
+    height: 45px;
+    background-color: rgba(32, 199, 29, 1);
+    color:white;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 7px;
+    
+
+
+
+}
+.dropdown select {
+    width: 200px; /* Adjust as needed */
+    min-height: 30px; /* Minimum height */
+    height: auto; /* Adjust height based on content */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(244, 244, 245, 1);
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 16px; /* Adjust as needed */
+    overflow-y: auto; /* Allows scrolling */
+  }
+  
+  /* Remove arrow for multiple select */
+  .dropdown select[multiple]:after {
+    content: none;
+  }
+  
+  /* Increase padding for better readability in multiple select */
+  .dropdown select[multiple] option {
+    padding: 8px;
+  }
+  
+  /* Style for focus and hover states to improve UX */
+  .dropdown select[multiple]:focus, .dropdown select[multiple]:hover {
+    border-color: #aaa; /* Darker border on focus/hover */
+  }
+  
+  .dropdown select:not([multiple]):after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* To style the dropdown options */
+  .dropdown select option {
+    padding: 5px;
+  }
+  
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+.Cont44{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    
+}
+.text44{
+    position: relative;
+    top:2px;
+    font-weight: 400;
+    font-size: 24px;
+    color:  rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+}
+.Box44{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    color: rgba(17, 17, 17, 1);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1.75px solid rgba(17, 17, 17, 1);
+    border-radius: 5px;
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.Box44.selected {
+    background-color: gray;
+  }
+  
+  /* Add other necessary styles for .Box44, .container44, etc., if they don't already exist */
+  
+.contBox44{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.buttons44{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 970px;
+    margin-top: 240px;
+    
+}
+.container44{
+    margin-left: 80px;
+    margin-top: 70px;
+ }
+ .container777{
+    margin-left: 30px;
+    margin-top: 150px;
+ }
+ .buttons777{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 970px;
+    position: relative;
+    bottom: 320px;
+    
+}

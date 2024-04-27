@@ -1,0 +1,14 @@
+.container{
+    width: 270px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    font-size: Roboto;
+    font-weight: 350;
+    font-size: 30px;
+    align-items: center;
+    background: rgba(12, 35, 64, 1);
+    color: white;
+    
+
+}

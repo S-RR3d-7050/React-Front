@@ -1,0 +1,27 @@
+.container{
+    background-color: rgba(12, 35, 64, 1);
+    min-height: 100vh;
+    width: 264px; /* This sets the width of the div to 264px */
+    margin:0px;
+    padding: 0;
+      position: sticky;
+    
+}
+.buttoncontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap:15px;
+    cursor: pointer;
+}
+.user{
+    position: relative;
+    right:12px;
+}
+.logout{
+    position: relative;
+    top:550px;
+    left:14.5px;
+}

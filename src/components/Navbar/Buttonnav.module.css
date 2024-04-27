@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    
+    align-items: center;
+    
+    background-color: rgba(217, 217, 217, 0.3);
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22.5px;
+    line-height: 28.13px;
+    color: white;
+    border: none;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    
+}
+.icon{
+    position: absolute;
+    padding-left: 10px;
+    
+    
+    
+}
+.texte{
+    position: relative;
+    right: 6px;
+    line-height: 22px;
+    margin-left: 65px;
+}

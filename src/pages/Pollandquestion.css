@@ -1,0 +1,114 @@
+.container22{
+    width: 800px;
+    height: 549px;
+    border-radius: 5px;
+    border:  1px solid rgba(217, 217, 217, 0.45);
+    background-color:rgba(217, 217, 217, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-self: center;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    
+
+}
+.page22{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+}
+.com1{
+    width: 325px;
+    height: 411px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.button222{
+    width: 804px;
+    height: 70px;
+    border-radius: 20px;
+    background-color:  rgba(249, 9, 50, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 90px;
+    color: white;
+    border: none;
+    position: relative;
+    left: 45px;
+}
+
+.Button77{
+    width: 110px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(32, 199, 29, 1);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 250px;
+    position: relative;
+    bottom:3px; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+.Box77{
+    border: 5px solid  rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    width: 390px;
+    height: 190px;
+    margin:50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 549;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: rgba(17, 17, 17, 1);
+
+}
+.container99{
+    display: flex;
+    flex-direction: row;/* Stack elements vertically */
+    gap:30px;
+}
+.Boxcontainer99 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns with equal width */
+    grid-template-rows: repeat(2, 1fr); /* Creates 2 rows with equal height */
+    gap: 10px; /* Adjust the space between the cards as needed */
+    /* Add additional styling for alignment, padding, etc., as needed */
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  
+
+
+    
+
+

@@ -1,0 +1,37 @@
+.bouton{
+    width: 153px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(217, 217, 217, 1);
+
+
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+
+    
+ 
+
+    
+}
+
+
+    
+
+
+.image{
+  position: relative;
+  left:10px;
+  bottom: 2px;
+}
+.texte{
+   position: relative;
+   left:2px;
+   
+}

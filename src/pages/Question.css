@@ -1,0 +1,19 @@
+.buttons2{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 1000px;
+    margin-top: 310px;
+}
+.buttons445{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 1030px;
+    margin-top: 400px;
+    
+}
+.container335{
+    margin-left: 60px;
+    margin-top: 70px;
+ }
