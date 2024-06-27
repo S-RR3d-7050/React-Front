@@ -23,18 +23,6 @@ function App() {
       <Routes>
       <Route path='login' element={<Login/>}></Route>
       <Route path ='register' element={<Newaccount/>}></Route>
-      {/* <Route path='register' element={<Newaccount/>}></Route> */}
-      {/* <Route element={<PrivateRoute />}>
-        <Route path='/HOME' element={<Home></Home>}></Route>
-      </Route> */}
-      {/* <Route element={<PrivateRoute />}>
-        <Route path='/Choice' element={<PollandQues/>} />
-      </Route> */}
-    {/* /* <ProtectedRoute path="/profile/:id" component={UserProfile} /> */}
-
-      {/* <Route path="/" element={<PrivateRoute />}>
-        <Route path='Poll' element={<Poll/>}/>
-      </Route>  */}
       <Route path="/poll" element={<PrivateRoute component={Poll} />} />
       <Route path="/question" element={<PrivateRoute component={Question} />} />
       <Route path="/answerpoll" >
@@ -55,31 +43,6 @@ function App() {
       <Route path="/HOME" element={<PrivateRoute component={Home} />} />
       <Route path="/Choice" element={<PrivateRoute component={PollandQues} />} />
 
-
-
-      
-      {/* <PrivateRoute path="/Poll" component={Poll} /> */}
-      {/* <Route element={<PrivateRoute />}>
-        <Route path='Question' element={<Question/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='AnswerPoll' element={<AnswerPoll/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='AnswerQuestion' element={<AnswerQuestion/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='PollHome' element={<PollHome/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='QuestionHome' element={<QuestionHome/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='CreatedQuestion' element={<CreatedQuestion/>}/>
-      </Route>
-      <Route element={<PrivateRoute />}>
-        <Route path='CreatedPoll' element={<CreatedPoll/>}/>
-      </Route> */}
       </Routes>
     </AuthProvider>
    
